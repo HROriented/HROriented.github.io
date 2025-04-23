@@ -11,6 +11,10 @@ header {
   padding: 2rem 1rem;
   text-align: center;
 }
+.logo {
+  max-width: 160px;
+  margin-bottom: 1rem;
+}
 section {
   padding: 2rem 1rem;
 }
