@@ -1,17 +1,38 @@
 
 body {
-    font-family: Arial, sans-serif;
-    background: #f9f9f9;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  color: #333;
 }
 header {
-    background: #004c99;
-    color: white;
-    padding: 1rem;
-    text-align: center;
+  background-color: #264653;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
 }
-main {
-    padding: 2rem;
+section {
+  padding: 2rem 1rem;
+}
+footer {
+  background-color: #e9ecef;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+h1, h2 {
+  color: #264653;
+}
+ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+a {
+  color: #0077b6;
+  text-decoration: none;
 }
